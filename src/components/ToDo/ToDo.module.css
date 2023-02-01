@@ -1,0 +1,91 @@
+.todo {
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border: 5px solid rgb(255, 106, 0);
+    border-radius: 30px;
+    min-height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(161, 231, 208);
+}
+
+
+.todoInfo {
+    display: flex;
+    align-items: center;
+}
+
+.todoInfoExpired {
+    display: flex;
+    align-items: center;
+    background: red 
+}
+
+
+.todoBody {
+    margin: 0px 0px 0px 15px;
+}
+.todoBodyTitle {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+}
+
+.todoBodyTitleCompleted {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+    text-decoration: line-through;
+}
+
+
+.todoBodyDectription {
+    font-size: 18px;
+    margin: 0px 10px 10px 0px;
+}
+
+.todoBodyDectriptionCompleted {
+    font-size: 18px;
+    margin: 0px 10px 10px 0px;
+    text-decoration: line-through;
+}
+
+
+
+.todoAttachment {
+    margin: 0px 10px 10px 0px;
+   
+}
+
+.todoButton {
+    background-color: white;
+    border: 1px solid rgb(224, 220, 220);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;   
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-decoration: none;
+}
+
+
+.todoCompleted {
+    margin: 10px 0px 10px 0px;
+    border-radius: 30px;
+    color:rgb(187, 183, 183) ;
+    padding: 5px;
+    border: 5px solid rgb(32, 170, 46);
+    min-height: 65px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todoCompleted.todoAttachment {
+    text-decoration: none;
+}

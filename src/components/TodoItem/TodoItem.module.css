@@ -1,0 +1,51 @@
+.todoItem {
+    margin: 10px 0px 10px 0px;
+    border: 5px solid rgb(255, 106, 0);
+    border-radius: 30px;
+    min-height: 65px;
+    background-color: aquamarine;
+    justify-content: space-between;
+
+    font-weight: normal;
+    min-width: 350px;
+}
+.todoItem h4 {
+    
+   font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+.todoTitle{
+    padding: 0px 0px 0px 5px;
+font-size: 25px;
+border-bottom: 2px solid rgb(255, 106, 0);
+
+}
+.todoDescription {
+    padding: 0px 0px 0px 5px;
+    border-bottom: 2px solid rgb(255, 106, 0);
+
+font-size: 20px;
+}
+.todoDate {
+padding: 0px 0px 10px 5px;
+height: 20px;
+}
+
+.todoItemCompleted {
+    margin: 10px 0px 10px 0px;
+    border: 5px solid rgb(255, 106, 0);
+    border-radius: 30px;
+    min-height: 65px;
+    background-color: white;
+    justify-content: space-between;
+    font-weight: normal;
+    min-width: 350px;
+}
+
+.todoItemCompleted h4 {
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
