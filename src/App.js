@@ -11,8 +11,7 @@ function App() {
       <div className="appContainer">
         <p>todos</p>
         <Routes>
-          <Route exact path='/*' element={<Navigate to="/todos" />} />
-          <Route element={<AllToDos />} path="/todos" />
+          <Route element={<AllToDos />} path="/*" />
           <Route element={<TodoItem />} path="/todos/todo/:todoId" />
         </Routes>
 
