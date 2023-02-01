@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-todo-list-with-FB/static/css/main.fae8e0a7.css",
+    "main.js": "/my-todo-list-with-FB/static/js/main.ff39c6cd.js",
+    "index.html": "/my-todo-list-with-FB/index.html",
+    "main.fae8e0a7.css.map": "/my-todo-list-with-FB/static/css/main.fae8e0a7.css.map",
+    "main.ff39c6cd.js.map": "/my-todo-list-with-FB/static/js/main.ff39c6cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae8e0a7.css",
+    "static/js/main.ff39c6cd.js"
+  ]
+}
